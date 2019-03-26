@@ -3,12 +3,25 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#cccccc; 
+    background-color:#cccccc;  
     
 }   
-
 li {
     float: left;
+}
+body {
+    background-image: url("Spatter.png"); 
+    background-repeat: no-repeat;    
+    opacity: 2;
+    /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;  
+
+  
+
 }
 
 li a {
