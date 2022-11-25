@@ -1,118 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Myportfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
-</head>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand">Vinci Bhardwaj</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <!-- Create a Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="mailto:vbhardwaj@gmail.com" target="_blank">Contact Me</a></li>
-            <li><a href="https://github.com/vincishar" target="_blank">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/vinci-bhardwaj-b28629bb/" target="_blank">Linkedin</a></li>
-            <li><a href="./Resume.pdf" target="_blank">Resume</a></li>
-        </ul>
-    </div>
-</nav>
-<img src="Pic.jpg" width="200" height="200" alt="">
-<body>
 
+    </nav>
+    <div class="container shadow">
         <div class="row">
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vincishar.github.io/Basic-Portfolio/index3.html" target="_blank">
-                          <img src="profile.jpg" style="width:100%">
-                        </a>
-                        <h3>Basic-Portfolio</h3>    
-                        <p><a href="https://github.com/vincishar/Basic-Portfolio" target="_blank">Github link</a></p>
-                    </div>
+            <!-- Add my picture -->
+            <div class="col-md-4 my-pic-holder">
+                <img class="my-pic" src="Pic.jpg" width="100%" alt="My Picture">
+            </div>
+            <div class="col-md-8">
+                <h1>My Portfolio</h1>
+                <p>My name is <strong>John Doe</strong> and I am a web
+                    developer. I have been working in the industry for 5 years.
+                    I have worked on many projects and I am very passionate
+                    about what I do. I am currently looking for a new job and I
+                    am open to relocation. Please feel free to contact me if you
+                    have any questions.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <body>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a
+                        href="https://vincishar.github.io/Basic-Portfolio/index3.html"
+                        target="_blank">
+                        <img src="profile.jpg" style="width:100%">
+                    </a>
+                    <div class="project-title">Basic-Portfolio</div>
+                    <p><a href="https://github.com/vincishar/Basic-Portfolio"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vincishar.github.io/04-Giphy_API/" target="_blank">
-                          <img src="giphy.jpg" style="width:100%"/>
-                        </a>
-                        <h3>04-Giphy_API</h3>   
-                        <p><a href="https://github.com/vincishar/04-Giphy_API" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://vincishar.github.io/04-Giphy_API/"
+                        target="_blank">
+                        <img src="giphy.jpg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">04-Giphy_API</div>
+                    <p><a href="https://github.com/vincishar/04-Giphy_API"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vincishar.github.io/TriviaGame/" target="_blank">
-                          <img src="trivia.jpg" style="width:100%"/>
-                        </a>
-                        <h3>TriviaGame</h3>     
-                        <p><a href="https://github.com/vincishar/TriviaGame" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://vincishar.github.io/TriviaGame/"
+                        target="_blank">
+                        <img src="trivia.jpg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">TriviaGame</div>
+                    <p><a href="https://github.com/vincishar/TriviaGame"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://jrubin9326.github.io/findFlix/" target="_blank">
-                          <img src="image.jpeg" style="width:100%"/>
-                        </a>
-                        <h3>FindFlix</h3>     
-                        <p><a href="https://github.com/jrubin9326/findFlix" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://jrubin9326.github.io/findFlix/"
+                        target="_blank">
+                        <img src="image.jpeg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">FindFlix</div>
+                    <p><a href="https://github.com/jrubin9326/findFlix"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://uwell.herokuapp.com/" target="_blank">
-                          <img src="Uwell.jpeg" style="width:100%"/>
-                        </a>
-                        <h3>Uwell</h3>     
-                        <p><a href="https://github.com/pgerspach/Group-Project-2" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://uwell.herokuapp.com/" target="_blank">
+                        <img src="Uwell.jpeg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">Uwell</div>
+                    <p><a href="https://github.com/pgerspach/Group-Project-2"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vinci-news-scraper.herokuapp.com/" target="_blank">
-                          <img src="WSJ.jpg" style="width:100%"/>
-                        </a>
-                        <h3>Webscrape WSJ</h3>     
-                        <p><a href="https://github.com/vincishar/News" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://vinci-news-scraper.herokuapp.com/"
+                        target="_blank">
+                        <img src="WSJ.jpg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">Webscrape WSJ</div>
+                    <p><a href="https://github.com/vincishar/News"
+                            target="_blank">Github
+                            link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vincishar.github.io/Clickygame/" target="_blank">
-                          <img src="JLshot.jpg" style="width:100%"/>
-                        </a>
-                        <h3>Clicky Game</h3>     
-                        <p><a href="https://github.com/vincishar/Clickygame" target="_blank">Github link</a></p>
-                    </div>
-                </div> 
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://vinci-book-search.herokuapp.com/search" target="_blank">
-                          <img src="booksearch.jpg" style="width:100%"/>
-                        </a>
-                        <h3>Google book-search</h3>     
-                        <p><a href="https://github.com/vincishar/NYT-book-search" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://vincishar.github.io/Clickygame/"
+                        target="_blank">
+                        <img src="JLshot.jpg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">Clicky Game</div>
+                    <p><a href="https://github.com/vincishar/Clickygame"
+                            target="_blank">Github link</a></p>
                 </div>
-                <div class="column">
-                    <div class="btn">
-                        <a href="https://tour-nyc.herokuapp.com/home" target="_blank">
-                          <img src="NYC.png" style="width:100%"/>
-                        </a>
-                        <h3>TourNYC</h3>     
-                        <p><a href="https://github.com/vincishar/FinalProject" target="_blank">Github link</a></p>
-                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://vinci-book-search.herokuapp.com/search"
+                        target="_blank">
+                        <img src="booksearch.jpg" style="width:100%"/>
+                    </a>
+                    <div class="project-title">Google book-search</div>
+                    <p><a href="https://github.com/vincishar/NYT-book-search"
+                            target="_blank">Github link</a></p>
                 </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="project-btn">
+                    <a href="https://tour-nyc.herokuapp.com/home"
+                        target="_blank">
+                        <img src="NYC.png" style="width:100%"/>
+                    </a>
+                    <div class="project-title">TourNYC</div>
+                    <p><a href="https://github.com/vincishar/FinalProject"
+                            target="_blank">Github link</a></p>
+                </div>
+            </div>
 
 
 
 
-</body>
+        </body>
 
-</html>
+    </html>

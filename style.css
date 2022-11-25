@@ -19,9 +19,6 @@ body {
   /* Center and scale the image nicely */
   background-position: center;
   background-size: cover;  
-
-  
-
 }
 
 li a {
@@ -37,13 +34,13 @@ li a:hover {
     background-color: #111;
 }  
 
-h1 { font-family: 'Georgia', Times, Times New Roman, serif,; 
+/* h1 { font-family: 'Georgia', Times, Times New Roman, serif,; 
      background-color: #4aaaa5; 
-}
+} */
 
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif; 
-
+    font-size: 2em;
 }  
 
 p {
@@ -152,15 +149,6 @@ li a:hover {
     background-color: #111;
 }  
 
-h1 { font-family: 'Georgia', Times, Times New Roman, serif,; 
-     background-color: #4aaaa5; 
-}
-
-h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif; 
-
-}  
-
 p {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }  
@@ -199,3 +187,60 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+
+/* Style the btn class to have a white background and rounded corners with a shadow */
+/* make sure that all btn classes have the same height */
+.project-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #636363;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 16em;
+    /* width: 100%; */
+    /* center this element in the parent */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    /* add diffused shadow */
+    box-shadow: 5px 9px 4px 3px rgba(0, 0, 0, 0.192);
+}
+
+.project-btn img {
+    height: 10em;
+}
+
+.shadow {
+    box-shadow: 5px 9px 4px 3px rgba(0, 0, 0, 0.192);
+}
+
+.project-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-pic-holder {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.my-pic {
+    max-height: 15em;
+    width: auto;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
